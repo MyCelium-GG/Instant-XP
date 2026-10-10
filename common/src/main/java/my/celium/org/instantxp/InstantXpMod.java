@@ -23,7 +23,7 @@ import net.minecraft.server.MinecraftServer;
 public final class InstantXpMod {
     public static final String ID = "instantxp";
 
-    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.0.0")
+    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.0.1")
             .author("MyCelium")
             .build();
 
