@@ -25,6 +25,8 @@ public final class InstantXpMod {
 
     public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.0.1")
             .author("MyCelium")
+            .website("https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup")
+            .updateUrl("https://wiki.mycelium-gg.org/updates/instantxp.json")
             .build();
 
     public static ConfigValue<Boolean> enabled;
