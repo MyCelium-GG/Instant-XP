@@ -23,7 +23,7 @@ import net.minecraft.server.MinecraftServer;
 public final class InstantXpMod {
     public static final String ID = "instantxp";
 
-    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.0.3")
+    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.0.4")
             .author("MyCelium")
             .website("https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup")
             .updateUrl("https://wiki.mycelium-gg.org/updates/instantxp.json")
