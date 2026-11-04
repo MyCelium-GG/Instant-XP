@@ -74,6 +74,12 @@ public final class InstantXpBrain {
             orb.playerTouch(player);
             touched++;
         }
+        if (touched > 0) {
+            for (int i = 0; i < Math.min(touched, 1000); i++) {
+                XpStats.count("orb");
+            }
+            XpStats.count("pile_sizes", touched >= 50 ? "50+" : touched >= 10 ? "10-49" : touched >= 2 ? "2-9" : "1");
+        }
         return touched;
     }
 

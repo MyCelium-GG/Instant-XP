@@ -23,7 +23,7 @@ import net.minecraft.server.MinecraftServer;
 public final class InstantXpMod {
     public static final String ID = "instantxp";
 
-    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.1.1")
+    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.1.2")
             .author("MyCelium")
             .website("https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup")
             .updateUrl("https://wiki.mycelium-gg.org/updates/instantxp.json")
@@ -47,6 +47,7 @@ public final class InstantXpMod {
         radius = builder.intValue("radius", 8, 1, 64,
                 "Collection radius in blocks around each player.");
         config = builder.build();
+        XpStats.start();
     }
 
     public static boolean isModEnabled() {

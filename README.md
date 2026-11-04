@@ -27,6 +27,13 @@ configuration, platform abstraction, scheduling and diagnostics are reused.
   farms are absorbed in a single tick instead of draining over seconds.
 - Dead, removed and spectator players collect nothing.
 
+## Anonymous stats
+
+Instant XP sends anonymous stats (how many XP orbs get collected, the radius, and errors in its own code) to its FastStats project through
+Mycel. It follows Mycel's choice exactly: the one-time screen in your own
+game, `shareStats` / `shareErrors` in `config/mycel.json` on servers.
+Details: https://wiki.mycelium-gg.org/privacy#stats-instantxp
+
 ## Configuration (`config/instantxp.json`)
 
 | Key | Default | Meaning |
