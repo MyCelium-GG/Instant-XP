@@ -13,6 +13,8 @@
   <a href="https://github.com/MyCelium-GG/Instant-XP/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MyCelium-GG/Instant-XP?style=flat-square&color=F2C14E" alt="License"></a>
 </p>
 
+<a href="https://www.curseforge.com/minecraft/mc-mods/mycel"><img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/8af308e5bb70/docs/img/banners/mycel-required.svg" alt="Mycel is required: this mod needs the Mycel library to run. Install Mycel next to it, for the same Minecraft version and loader. Download it from CurseForge." width="100%"></a>
+
 ![About the mod](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/about-the-mod.svg)
 
 <img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/about.svg" alt="Never walk over XP orbs again. Every server tick, orbs within a few blocks of you are picked up instantly, as if you had stepped on them. Silent, server side, no keybinds." width="100%">
