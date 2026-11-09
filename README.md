@@ -1,58 +1,32 @@
-# InstantXP
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/header.svg" alt="InstantXP" width="100%">
+</p>
 
-[![CI](https://github.com/MyCelium-GG/Instant-XP/actions/workflows/build.yml/badge.svg)](https://github.com/MyCelium-GG/Instant-XP/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/MyCelium-GG/Instant-XP)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/MyCelium-GG/Instant-XP)](https://github.com/MyCelium-GG/Instant-XP/commits/main)
+<p align="center">
+  <a href="https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup"><img src="https://img.shields.io/curseforge/dt/1726939?style=flat-square&logo=curseforge&logoColor=white&label=downloads&color=F16436" alt="CurseForge downloads"></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup/files"><img src="https://img.shields.io/badge/Minecraft-26.1%20--%2026.3-62B47A?style=flat-square" alt="Minecraft 26.1 to 26.3"></a>
+  <img src="https://img.shields.io/badge/loaders-Fabric%2C%20Forge%2C%20NeoForge-1E88E5?style=flat-square" alt="Fabric, Forge, NeoForge">
+  <img src="https://img.shields.io/badge/side-server%20only-8E44AD?style=flat-square" alt="Server only">
+  <img src="https://img.shields.io/badge/Java-25-E76F00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 25">
+  <a href="https://www.curseforge.com/minecraft/mc-mods/mycel"><img src="https://img.shields.io/badge/requires-Mycel-F16436?style=flat-square&logo=curseforge&logoColor=white" alt="Requires Mycel"></a>
+  <a href="https://wiki.mycelium-gg.org/instantxp/"><img src="https://img.shields.io/badge/docs-wiki-0A7BBB?style=flat-square" alt="Docs on the wiki"></a>
+  <a href="https://github.com/MyCelium-GG/Instant-XP/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MyCelium-GG/Instant-XP?style=flat-square&color=F2C14E" alt="License"></a>
+</p>
 
-Never walk over XP orbs again. Every server tick, orbs within a few blocks of
-you are picked up instantly, as if you had stepped on them. Silent,
-server side, no keybinds.
+![About the mod](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/about-the-mod.svg)
 
-Built on [Mycel](https://github.com/MyCelium-GG/MyCel-Lib) (`my.celium.org`), the shared
-core for the MyCelium ecosystem. This mod is about 100 lines of feature code because
-configuration, platform abstraction, scheduling and diagnostics are reused.
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/about.svg" alt="Never walk over XP orbs again. Every server tick, orbs within a few blocks of you are picked up instantly, as if you had stepped on them. Silent, server side, no keybinds." width="100%">
 
-| | |
-|---|---|
-| Mod id | `instantxp` |
-| Minecraft | **26.3**, **26.2**, **26.1** (26.1-26.1.2) · Java **25** |
-| Loaders | Fabric, Forge, NeoForge |
+![Behavior](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/behavior.svg)
 
-## Behavior
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/behavior-box.svg" alt="Each server tick, every XP orb inside radius blocks of a player is collected. Collection goes through vanilla's own pickup path, so Mending repairs, pickup sounds, statistics and the orb-take animation all work exactly as usual. Vanilla's two-tick pacing between orbs is bypassed, so even huge piles from farms are absorbed in a single tick instead of draining over seconds. Dead, removed and spectat" width="100%">
 
-- Each server tick, every XP orb inside `radius` blocks of a player is collected.
-- Collection goes through vanilla's own pickup path, so Mending repairs,
-  pickup sounds, statistics and the orb-take animation all work exactly as usual.
-- Vanilla's two-tick pacing between orbs is bypassed, so even huge piles from
-  farms are absorbed in a single tick instead of draining over seconds.
-- Dead, removed and spectator players collect nothing.
+![Anonymous stats](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/anonymous-stats.svg)
 
-## Anonymous stats
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/anonymous-stats-box.svg" alt="Instant XP sends anonymous stats (how many XP orbs get collected, the radius, and errors in its own code) to its FastStats project through Mycel. It follows Mycel's choice exactly: the one-time screen in your own game, shareStats / shareErrors in config/mycel.json on servers." width="100%">
 
-Instant XP sends anonymous stats (how many XP orbs get collected, the radius, and errors in its own code) to its FastStats project through
-Mycel. It follows Mycel's choice exactly: the one-time screen in your own
-game, `shareStats` / `shareErrors` in `config/mycel.json` on servers.
-Details: https://wiki.mycelium-gg.org/privacy#stats-instantxp
+![Configuration](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/configuration.svg)
 
-## Configuration (`config/instantxp.json`)
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/configuration-table.svg" alt="Configuration table: enabled, true, Master switch (also toggleable live via Mycel.setEnabled).; radius, 8, Collection radius in blocks around each player (1-64)." width="100%">
 
-| Key | Default | Meaning |
-|---|---|---|
-| `enabled` | `true` | Master switch (also toggleable live via `Mycel.setEnabled`). |
-| `radius` | `8` | Collection radius in blocks around each player (1-64). |
-
-Reload live with `/mycel reload instantxp`. A config screen is
-available from the mod list on Forge and NeoForge.
-
-## Building
-
-JDK 25, then:
-
-```sh
-./gradlew build            # all loaders + tests
-./gradlew :common:test     # unit tests only
-```
-
-Mycel itself comes from [JitPack](https://jitpack.io/#MyCelium-GG/MyCel-Lib)
-as one universal jar for all loaders
-(the version is `mycel_version` in `gradle.properties`). No local setup needed.
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/dd38d1289a87/docs/img/banners/configuration-box.svg" alt="Reload live with /mycel reload instantxp. A config screen is available from the mod list on Forge and NeoForge." width="100%">
