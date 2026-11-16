@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "my.celium.org.instantxp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BottleItemMixin",
+    "ThrownExperienceBottleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

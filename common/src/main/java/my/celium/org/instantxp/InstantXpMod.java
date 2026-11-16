@@ -23,7 +23,7 @@ import net.minecraft.server.MinecraftServer;
 public final class InstantXpMod {
     public static final String ID = "instantxp";
 
-    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.1.2")
+    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.2.0")
             .author("MyCelium")
             .website("https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup")
             .updateUrl("https://wiki.mycelium-gg.org/updates/instantxp.json")
@@ -31,6 +31,8 @@ public final class InstantXpMod {
 
     public static ConfigValue<Boolean> enabled;
     public static ConfigValue<Integer> radius;
+    public static ConfigValue<Boolean> xpBottles;
+    public static ConfigValue<Integer> bottleXp;
     public static MycelConfig config;
 
     private InstantXpMod() {
@@ -46,8 +48,17 @@ public final class InstantXpMod {
                 "Whether nearby XP orbs are picked up instantly.");
         radius = builder.intValue("radius", 8, 1, 64,
                 "Collection radius in blocks around each player.");
+        xpBottles = builder.booleanValue("xpBottles", true,
+                "Sneak and use an empty glass bottle to bottle your XP; throwing it gives exactly that XP back.");
+        bottleXp = builder.intValue("bottleXp", 50, 1, 1000,
+                "XP points put into one bottle (or less, if you have less).");
         config = builder.build();
         XpStats.start();
+    }
+
+    /** Whether bottling XP is on (separate from instant pickup). */
+    public static boolean bottlesEnabled() {
+        return xpBottles != null && Mycel.isEnabled(ID) && xpBottles.get();
     }
 
     public static boolean isModEnabled() {

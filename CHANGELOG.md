@@ -6,6 +6,15 @@ InstantXP is versioned semantically (`MAJOR.MINOR.PATCH`).
 It runs on Minecraft 26.3, 26.2 and 26.1 (Fabric + Forge + NeoForge, Java 25) and requires
 [Mycel](https://github.com/MyCelium-GG/MyCel-Lib) (`my.celium.org`).
 
+## [1.2.0] - 2026-11-16
+
+### Added
+- Bottle your XP: sneak and use an empty glass bottle to put 50 XP into a Bottle o' Enchanting named with the exact amount ("Bottle o' Enchanting (50 XP)"). Throwing it gives exactly that XP back, not vanilla's random 3 to 11. Bottles with the same amount stack. Settings `xpBottles` and `bottleXp` (1 to 1000).
+- Works for players without the mod too: everything happens on the server. Filling water bottles and dragon's breath works as before.
+
+### Changed
+- Installed without Mycel, the game still starts: InstantXP stays off and tells joining players that Mycel is missing, with a download link.
+
 ## [1.1.2] - 2026-11-04
 
 ### Changed
