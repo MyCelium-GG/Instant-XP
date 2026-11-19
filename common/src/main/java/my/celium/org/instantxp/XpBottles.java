@@ -43,20 +43,20 @@ public final class XpBottles {
                 SoundSource.PLAYERS, 0.8F, 1.2F);
         XpStats.count("bottle_fill");
         ItemStack held = player.getItemInHand(hand);
-        ItemStack filled = bottle(amount);
+        ItemStack filled = bottle(amount, player);
         return InteractionResult.SUCCESS.heldItemTransformedTo(ItemUtils.createFilledResult(held, server, filled));
     }
 
-    /** A Bottle o' Enchanting holding exactly {@code amount} XP. */
-    public static ItemStack bottle(int amount) {
+    /** A Bottle o' Enchanting holding exactly {@code amount} XP, labelled in the language of the player who filled it. */
+    public static ItemStack bottle(int amount, Player player) {
         ItemStack stack = new ItemStack(Items.EXPERIENCE_BOTTLE);
         CompoundTag tag = new CompoundTag();
         tag.putInt(KEY, amount);
         stack.set(DataComponents.CUSTOM_DATA, CustomData.of(tag));
         stack.set(DataComponents.CUSTOM_NAME, Component.translatable("item.minecraft.experience_bottle")
-                .append(" (" + amount + " XP)").withStyle(style -> style.withItalic(false)));
+                .append(InstantXpMod.LANG.get(player, "bottle.amount", amount)).withStyle(style -> style.withItalic(false)));
         stack.set(DataComponents.LORE, new ItemLore(List.of(
-                Component.literal("Throw it to get exactly " + amount + " XP back")
+                Component.literal(InstantXpMod.LANG.get(player, "bottle.lore", amount))
                         .withStyle(style -> style.withItalic(false).withColor(0xA8A8A8)))));
         return stack;
     }

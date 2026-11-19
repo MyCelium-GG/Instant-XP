@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Mycel não está instalado. %s precisa da biblioteca Mycel e fica desligado até ela ser instalada.",
+  "instantxp.missing_mycel.download": "[Baixar Mycel]",
+  "instantxp.bottle.amount": " (%s XP)",
+  "instantxp.bottle.lore": "Arremesse para recuperar exatamente %s XP",
+  "instantxp.config.enabled": "Coleta instantânea",
+  "instantxp.config.enabled.desc": "Se os orbes de experiência próximos são coletados na hora.",
+  "instantxp.config.radius": "Raio",
+  "instantxp.config.radius.desc": "Raio de coleta em blocos ao redor de cada jogador.",
+  "instantxp.config.xpBottles": "Frascos de XP",
+  "instantxp.config.xpBottles.desc": "Agache e use um frasco de vidro vazio para engarrafar sua XP; arremessar devolve exatamente essa XP.",
+  "instantxp.config.bottleXp": "XP por frasco",
+  "instantxp.config.bottleXp.desc": "Pontos de XP colocados em um frasco (ou menos, se você tiver menos)."
+}

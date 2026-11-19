@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Falta Mycel. %s necesita la biblioteca Mycel para funcionar y seguirá desactivado hasta que la instales.",
+  "instantxp.missing_mycel.download": "[Descargar Mycel]",
+  "instantxp.bottle.amount": " (%s PX)",
+  "instantxp.bottle.lore": "Lánzala para recuperar exactamente %s PX",
+  "instantxp.config.enabled": "Recogida instantánea",
+  "instantxp.config.enabled.desc": "Si los orbes de experiencia cercanos se recogen al instante.",
+  "instantxp.config.radius": "Radio",
+  "instantxp.config.radius.desc": "Radio de recogida en bloques alrededor de cada jugador.",
+  "instantxp.config.xpBottles": "Botellas de PX",
+  "instantxp.config.xpBottles.desc": "Agáchate y usa una botella de cristal vacía para embotellar tu PX; al lanzarla recuperas exactamente esa PX.",
+  "instantxp.config.bottleXp": "PX por botella",
+  "instantxp.config.bottleXp.desc": "Puntos de PX que caben en una botella (o menos, si tienes menos)."
+}

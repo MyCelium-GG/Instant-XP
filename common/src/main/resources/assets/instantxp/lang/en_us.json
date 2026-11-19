@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Mycel is missing. %s needs the Mycel library to work and stays off until it is installed.",
+  "instantxp.missing_mycel.download": "[Download Mycel]",
+  "instantxp.bottle.amount": " (%s XP)",
+  "instantxp.bottle.lore": "Throw it to get exactly %s XP back",
+  "instantxp.config.enabled": "Instant pickup",
+  "instantxp.config.enabled.desc": "Whether nearby XP orbs are picked up instantly.",
+  "instantxp.config.radius": "Radius",
+  "instantxp.config.radius.desc": "Collection radius in blocks around each player.",
+  "instantxp.config.xpBottles": "XP bottles",
+  "instantxp.config.xpBottles.desc": "Sneak and use an empty glass bottle to bottle your XP; throwing it gives exactly that XP back.",
+  "instantxp.config.bottleXp": "XP per bottle",
+  "instantxp.config.bottleXp.desc": "XP points put into one bottle (or less, if you have less)."
+}

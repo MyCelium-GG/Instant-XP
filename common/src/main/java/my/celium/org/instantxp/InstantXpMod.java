@@ -5,6 +5,7 @@ import my.celium.org.config.ConfigBuilder;
 import my.celium.org.config.ConfigValue;
 import my.celium.org.config.MycelConfig;
 import my.celium.org.metadata.ModMetadata;
+import my.celium.org.translation.ModLang;
 import net.minecraft.server.MinecraftServer;
 
 /**
@@ -23,7 +24,10 @@ import net.minecraft.server.MinecraftServer;
 public final class InstantXpMod {
     public static final String ID = "instantxp";
 
-    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.2.0")
+    /** Messages in each player's language (assets/instantxp/lang). */
+    public static final ModLang LANG = ModLang.of("instantxp", InstantXpMod.class);
+
+    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.3.0")
             .author("MyCelium")
             .website("https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup")
             .updateUrl("https://wiki.mycelium-gg.org/updates/instantxp.json")

@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Brakuje Mycel. %s potrzebuje biblioteki Mycel i pozostaje wyłączony, dopóki jej nie zainstalujesz.",
+  "instantxp.missing_mycel.download": "[Pobierz Mycel]",
+  "instantxp.bottle.amount": " (%s PD)",
+  "instantxp.bottle.lore": "Rzuć, aby odzyskać dokładnie %s PD",
+  "instantxp.config.enabled": "Natychmiastowe zbieranie",
+  "instantxp.config.enabled.desc": "Czy pobliskie kule doświadczenia są zbierane od razu.",
+  "instantxp.config.radius": "Promień",
+  "instantxp.config.radius.desc": "Promień zbierania w blokach wokół każdego gracza.",
+  "instantxp.config.xpBottles": "Butelki PD",
+  "instantxp.config.xpBottles.desc": "Kucnij i użyj pustej butelki, aby zabutelkować PD; rzucona butelka zwraca dokładnie tyle PD.",
+  "instantxp.config.bottleXp": "PD na butelkę",
+  "instantxp.config.bottleXp.desc": "Punkty PD w jednej butelce (lub mniej, jeśli masz mniej)."
+}

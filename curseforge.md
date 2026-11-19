@@ -18,6 +18,8 @@ Never walk over XP orbs again. Every server tick, orbs within a few blocks of yo
 
 Server side: install it on the server, or in your own game for singleplayer. Players don't need it.
 
+In 11 languages: English, German, Spanish, French, Dutch, Brazilian Portuguese, Russian, Polish, Italian, Japanese and Simplified Chinese.
+
 Requires [Mycel](https://www.curseforge.com/minecraft/mc-mods/mycel): install it alongside this mod. Minecraft 26.1, 26.2 and 26.3 on Fabric, Forge and NeoForge, Java 25. On Fabric you also need Fabric API.
 
 Every setting and command is on the [wiki](https://wiki.mycelium-gg.org/instantxp/).

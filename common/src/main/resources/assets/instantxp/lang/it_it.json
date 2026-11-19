@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Manca Mycel. %s ha bisogno della libreria Mycel e resta spenta finché non la installi.",
+  "instantxp.missing_mycel.download": "[Scarica Mycel]",
+  "instantxp.bottle.amount": " (%s XP)",
+  "instantxp.bottle.lore": "Lanciala per riavere esattamente %s XP",
+  "instantxp.config.enabled": "Raccolta istantanea",
+  "instantxp.config.enabled.desc": "Se le sfere di esperienza vicine vengono raccolte all'istante.",
+  "instantxp.config.radius": "Raggio",
+  "instantxp.config.radius.desc": "Raggio di raccolta in blocchi attorno a ogni giocatore.",
+  "instantxp.config.xpBottles": "Bottiglie di XP",
+  "instantxp.config.xpBottles.desc": "Accovacciati e usa una bottiglia vuota per imbottigliare la tua XP; lanciandola riavrai esattamente quella XP.",
+  "instantxp.config.bottleXp": "XP per bottiglia",
+  "instantxp.config.bottleXp.desc": "Punti XP messi in una bottiglia (o meno, se ne hai meno)."
+}

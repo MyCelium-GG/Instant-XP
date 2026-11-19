@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "缺少 Mycel。%s 需要 Mycel 库才能运行，安装前不会生效。",
+  "instantxp.missing_mycel.download": "[下载 Mycel]",
+  "instantxp.bottle.amount": "（%s 经验）",
+  "instantxp.bottle.lore": "扔出后可取回正好 %s 点经验",
+  "instantxp.config.enabled": "即时拾取",
+  "instantxp.config.enabled.desc": "是否立即拾取附近的经验球。",
+  "instantxp.config.radius": "半径",
+  "instantxp.config.radius.desc": "每名玩家周围的拾取半径（格）。",
+  "instantxp.config.xpBottles": "经验瓶",
+  "instantxp.config.xpBottles.desc": "潜行时使用空玻璃瓶可装瓶经验，扔出后取回同样多的经验。",
+  "instantxp.config.bottleXp": "每瓶经验",
+  "instantxp.config.bottleXp.desc": "每瓶装入的经验点数（不足时按实际数量）。"
+}

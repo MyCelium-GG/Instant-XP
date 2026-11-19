@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Mycel fehlt. %s braucht die Mycel-Bibliothek und bleibt aus, bis sie installiert ist.",
+  "instantxp.missing_mycel.download": "[Mycel herunterladen]",
+  "instantxp.bottle.amount": " (%s EP)",
+  "instantxp.bottle.lore": "Wirf sie, um genau %s EP zurückzubekommen",
+  "instantxp.config.enabled": "Sofort einsammeln",
+  "instantxp.config.enabled.desc": "Ob Erfahrungskugeln in der Nähe sofort eingesammelt werden.",
+  "instantxp.config.radius": "Radius",
+  "instantxp.config.radius.desc": "Sammelradius in Blöcken um jeden Spieler.",
+  "instantxp.config.xpBottles": "EP-Flaschen",
+  "instantxp.config.xpBottles.desc": "Schleiche und benutze eine leere Glasflasche, um deine EP abzufüllen; beim Werfen bekommst du genau diese EP zurück.",
+  "instantxp.config.bottleXp": "EP pro Flasche",
+  "instantxp.config.bottleXp.desc": "EP, die in eine Flasche kommen (oder weniger, wenn du weniger hast)."
+}

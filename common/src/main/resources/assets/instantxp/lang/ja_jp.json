@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Mycel がありません。%s は Mycel ライブラリが必要で、インストールされるまで動作しません。",
+  "instantxp.missing_mycel.download": "[Mycel をダウンロード]",
+  "instantxp.bottle.amount": "（%s XP）",
+  "instantxp.bottle.lore": "投げると経験値がちょうど %s 戻ります",
+  "instantxp.config.enabled": "即時回収",
+  "instantxp.config.enabled.desc": "近くの経験値オーブを即座に回収するかどうか。",
+  "instantxp.config.radius": "範囲",
+  "instantxp.config.radius.desc": "各プレイヤーの周囲で回収する範囲（ブロック）。",
+  "instantxp.config.xpBottles": "経験値ボトル",
+  "instantxp.config.xpBottles.desc": "スニークしながら空のガラス瓶を使うと経験値を瓶詰めでき、投げるとその分だけ戻ります。",
+  "instantxp.config.bottleXp": "1 本あたりの経験値",
+  "instantxp.config.bottleXp.desc": "1 本に入れる経験値ポイント（足りなければその分だけ）。"
+}

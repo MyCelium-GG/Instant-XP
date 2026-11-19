@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Mycel не установлен. %s нужна библиотека Mycel, без неё мод не работает.",
+  "instantxp.missing_mycel.download": "[Скачать Mycel]",
+  "instantxp.bottle.amount": " (%s ОП)",
+  "instantxp.bottle.lore": "Бросьте, чтобы вернуть ровно %s ОП",
+  "instantxp.config.enabled": "Мгновенный сбор",
+  "instantxp.config.enabled.desc": "Собираются ли ближайшие сферы опыта мгновенно.",
+  "instantxp.config.radius": "Радиус",
+  "instantxp.config.radius.desc": "Радиус сбора в блоках вокруг каждого игрока.",
+  "instantxp.config.xpBottles": "Бутылки опыта",
+  "instantxp.config.xpBottles.desc": "Присядьте и используйте пустую бутылку, чтобы разлить опыт; брошенная бутылка вернёт ровно столько опыта.",
+  "instantxp.config.bottleXp": "Опыта в бутылке",
+  "instantxp.config.bottleXp.desc": "Очки опыта в одной бутылке (или меньше, если у вас меньше)."
+}

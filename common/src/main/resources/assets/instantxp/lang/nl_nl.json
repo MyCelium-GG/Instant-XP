@@ -1,0 +1,14 @@
+{
+  "instantxp.missing_mycel": "Mycel ontbreekt. %s heeft de Mycel-bibliotheek nodig en blijft uit tot die is geïnstalleerd.",
+  "instantxp.missing_mycel.download": "[Mycel downloaden]",
+  "instantxp.bottle.amount": " (%s XP)",
+  "instantxp.bottle.lore": "Gooi hem om precies %s XP terug te krijgen",
+  "instantxp.config.enabled": "Direct oppakken",
+  "instantxp.config.enabled.desc": "Of XP-bollen in de buurt direct worden opgepakt.",
+  "instantxp.config.radius": "Straal",
+  "instantxp.config.radius.desc": "Ophaalstraal in blokken rond elke speler.",
+  "instantxp.config.xpBottles": "XP-flessen",
+  "instantxp.config.xpBottles.desc": "Sluip en gebruik een lege glazen fles om je XP te bottelen; gooien geeft precies die XP terug.",
+  "instantxp.config.bottleXp": "XP per fles",
+  "instantxp.config.bottleXp.desc": "XP-punten per fles (of minder, als je minder hebt)."
+}
