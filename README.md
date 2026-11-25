@@ -31,13 +31,23 @@
 
 <img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/060898cb8412/docs/img/banners/bottle-your-xp-box.svg" alt="Fill: Sneak and use an empty glass bottle (not at water). 50 XP of yours goes into a Bottle o' Enchanting named with the exact amount, for example Bottle o' Enchanting (50 XP). With less XP, the bottle takes what you have. Throw: It gives back exactly that XP, not vanilla's random 3 to 11, and instant pickup collects it straight away. Stacks: Bottles with the same amount stack. Change the amount w" width="100%">
 
+![XP counter](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/ae92ecd4e5b1/docs/img/banners/xp-counter.svg)
+
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/ae92ecd4e5b1/docs/img/banners/xp-counter-box.svg" alt="While you pick up XP, the amount you just got shows above the hotbar: +75 XP. Quick pickups add up into one number. Players without the mod see it too." width="100%">
+
+![+75 XP shown above the hotbar](https://wiki.mycelium-gg.org/instantxp/img/xp-counter.png)
+
+![Death bottle](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/ae92ecd4e5b1/docs/img/banners/death-bottle.svg)
+
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/ae92ecd4e5b1/docs/img/banners/death-bottle-box.svg" alt="Vanilla throws away almost all your XP when you die. With InstantXP, half of your XP goes into a Bottle o' Enchanting that drops where you fell; throw it to get exactly that back. Never worse than vanilla. deathBottle and deathBottlePercent (default 50). Nothing changes with keepInventory." width="100%">
+
 ![Anonymous stats](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/060898cb8412/docs/img/banners/anonymous-stats.svg)
 
 <img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/060898cb8412/docs/img/banners/anonymous-stats-box.svg" alt="Instant XP sends anonymous stats (how many XP orbs get collected, the radius, bottles filled and thrown, and errors in its own code) to its FastStats project through Mycel. It follows Mycel's choice exactly: the one-time screen in your own game, shareStats and shareErrors in config/mycel.json on servers." width="100%">
 
 ![Configuration](https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/060898cb8412/docs/img/banners/configuration.svg)
 
-<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/060898cb8412/docs/img/banners/configuration-table.svg" alt="Configuration table: enabled, true, Instant pickup on or off; radius, 8, Collection radius in blocks around each player (1 to 64); xpBottles, true, Sneak and use an empty glass bottle to bottle your XP; bottleXp, 50, XP points per bottle (1 to 1000)" width="100%">
+<img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/ae92ecd4e5b1/docs/img/banners/configuration-table.svg" alt="Configuration table: enabled, true, Instant pickup on or off; radius, 8, Collection radius in blocks (1 to 64); xpBottles, true, Bottle your XP with an empty glass bottle; bottleXp, 50, XP per bottle (1 to 1000); xpCounter, true, Show +XP above the hotbar; deathBottle, true, Dying leaves part of your XP in a bottle; deathBottlePercent, 50, Share of your XP in the death bottle" width="100%">
 
 <img src="https://raw.githubusercontent.com/MyCelium-GG/Instant-XP/060898cb8412/docs/img/banners/configuration-box.svg" alt="Reload live with /mycel reload instantxp. A config screen is available from the mod list on Forge and NeoForge." width="100%">
 
