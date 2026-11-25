@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "Frascos de XP",
   "instantxp.config.xpBottles.desc": "Agache e use um frasco de vidro vazio para engarrafar sua XP; arremessar devolve exatamente essa XP.",
   "instantxp.config.bottleXp": "XP por frasco",
-  "instantxp.config.bottleXp.desc": "Pontos de XP colocados em um frasco (ou menos, se você tiver menos)."
+  "instantxp.config.bottleXp.desc": "Pontos de XP colocados em um frasco (ou menos, se você tiver menos).",
+  "instantxp.counter": "+%s XP",
+  "instantxp.config.xpCounter": "Contador de XP",
+  "instantxp.config.xpCounter.desc": "Mostra o XP que você acabou de pegar acima da hotbar (+37 XP).",
+  "instantxp.config.deathBottle": "Frasco da morte",
+  "instantxp.config.deathBottle.desc": "Quando você morre, parte do seu XP fica em um Frasco de Experiência em vez de poucos orbes.",
+  "instantxp.config.deathBottlePercent": "Parte do frasco da morte",
+  "instantxp.config.deathBottlePercent.desc": "Quanto do seu XP vai para o frasco da morte, em porcentagem."
 }

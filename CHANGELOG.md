@@ -6,6 +6,13 @@ InstantXP is versioned semantically (`MAJOR.MINOR.PATCH`).
 It runs on Minecraft 26.3, 26.2 and 26.1 (Fabric + Forge + NeoForge, Java 25) and requires
 [Mycel](https://github.com/MyCelium-GG/MyCel-Lib) (`my.celium.org`).
 
+## [1.4.0] - 2026-11-25
+
+### Added
+- XP counter: "+37 XP" above the hotbar while you pick up XP. Quick pickups add up into one number. Setting `xpCounter`.
+- Death bottle: when you die, half of your XP is left in a Bottle o' Enchanting where you fell, instead of vanilla's few orbs (which give back at most 100 points). Pick it up and throw it to get exactly that XP back. Settings `deathBottle` and `deathBottlePercent` (1 to 100, default 50). Nothing changes with `keepInventory` on.
+- Both work for players without the mod: everything happens on the server.
+
 ## [1.3.0] - 2026-11-19
 
 ### Added

@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "EP-Flaschen",
   "instantxp.config.xpBottles.desc": "Schleiche und benutze eine leere Glasflasche, um deine EP abzufüllen; beim Werfen bekommst du genau diese EP zurück.",
   "instantxp.config.bottleXp": "EP pro Flasche",
-  "instantxp.config.bottleXp.desc": "EP, die in eine Flasche kommen (oder weniger, wenn du weniger hast)."
+  "instantxp.config.bottleXp.desc": "EP, die in eine Flasche kommen (oder weniger, wenn du weniger hast).",
+  "instantxp.counter": "+%s EP",
+  "instantxp.config.xpCounter": "EP-Anzeige",
+  "instantxp.config.xpCounter.desc": "Zeigt die gerade aufgesammelten EP über der Schnellleiste an (+37 EP).",
+  "instantxp.config.deathBottle": "Todesflasche",
+  "instantxp.config.deathBottle.desc": "Wenn du stirbst, bleibt ein Teil deiner EP in einer Erfahrungsflasche zurück statt ein paar Kugeln.",
+  "instantxp.config.deathBottlePercent": "Anteil der Todesflasche",
+  "instantxp.config.deathBottlePercent.desc": "Wie viel deiner EP in die Todesflasche geht, in Prozent."
 }

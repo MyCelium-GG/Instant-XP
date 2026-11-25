@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "Bottiglie di XP",
   "instantxp.config.xpBottles.desc": "Accovacciati e usa una bottiglia vuota per imbottigliare la tua XP; lanciandola riavrai esattamente quella XP.",
   "instantxp.config.bottleXp": "XP per bottiglia",
-  "instantxp.config.bottleXp.desc": "Punti XP messi in una bottiglia (o meno, se ne hai meno)."
+  "instantxp.config.bottleXp.desc": "Punti XP messi in una bottiglia (o meno, se ne hai meno).",
+  "instantxp.counter": "+%s XP",
+  "instantxp.config.xpCounter": "Contatore XP",
+  "instantxp.config.xpCounter.desc": "Mostra gli XP appena raccolti sopra la barra rapida (+37 XP).",
+  "instantxp.config.deathBottle": "Ampolla della morte",
+  "instantxp.config.deathBottle.desc": "Quando muori, parte dei tuoi XP resta in un'ampolla di esperienza invece di poche sfere.",
+  "instantxp.config.deathBottlePercent": "Quota dell'ampolla della morte",
+  "instantxp.config.deathBottlePercent.desc": "Quanta parte dei tuoi XP va nell'ampolla della morte, in percentuale."
 }

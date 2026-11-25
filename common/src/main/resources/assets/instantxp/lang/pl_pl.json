@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "Butelki PD",
   "instantxp.config.xpBottles.desc": "Kucnij i użyj pustej butelki, aby zabutelkować PD; rzucona butelka zwraca dokładnie tyle PD.",
   "instantxp.config.bottleXp": "PD na butelkę",
-  "instantxp.config.bottleXp.desc": "Punkty PD w jednej butelce (lub mniej, jeśli masz mniej)."
+  "instantxp.config.bottleXp.desc": "Punkty PD w jednej butelce (lub mniej, jeśli masz mniej).",
+  "instantxp.counter": "+%s PD",
+  "instantxp.config.xpCounter": "Licznik PD",
+  "instantxp.config.xpCounter.desc": "Pokazuje właśnie zebrane PD nad paskiem szybkiego wyboru (+37 PD).",
+  "instantxp.config.deathBottle": "Butelka po śmierci",
+  "instantxp.config.deathBottle.desc": "Po śmierci część twoich PD zostaje w butelce z doświadczeniem zamiast kilku kul.",
+  "instantxp.config.deathBottlePercent": "Udział butelki po śmierci",
+  "instantxp.config.deathBottlePercent.desc": "Ile twoich PD trafia do butelki po śmierci, w procentach."
 }

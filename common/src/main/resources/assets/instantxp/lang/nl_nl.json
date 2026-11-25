@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "XP-flessen",
   "instantxp.config.xpBottles.desc": "Sluip en gebruik een lege glazen fles om je XP te bottelen; gooien geeft precies die XP terug.",
   "instantxp.config.bottleXp": "XP per fles",
-  "instantxp.config.bottleXp.desc": "XP-punten per fles (of minder, als je minder hebt)."
+  "instantxp.config.bottleXp.desc": "XP-punten per fles (of minder, als je minder hebt).",
+  "instantxp.counter": "+%s XP",
+  "instantxp.config.xpCounter": "XP-teller",
+  "instantxp.config.xpCounter.desc": "Toont de XP die je net hebt opgepakt boven de hotbar (+37 XP).",
+  "instantxp.config.deathBottle": "Doodsfles",
+  "instantxp.config.deathBottle.desc": "Als je sterft, blijft een deel van je XP achter in een ervaringsfles in plaats van een paar bolletjes.",
+  "instantxp.config.deathBottlePercent": "Aandeel doodsfles",
+  "instantxp.config.deathBottlePercent.desc": "Hoeveel van je XP in de doodsfles gaat, in procent."
 }

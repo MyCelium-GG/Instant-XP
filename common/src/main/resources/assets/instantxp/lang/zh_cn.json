@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "经验瓶",
   "instantxp.config.xpBottles.desc": "潜行时使用空玻璃瓶可装瓶经验，扔出后取回同样多的经验。",
   "instantxp.config.bottleXp": "每瓶经验",
-  "instantxp.config.bottleXp.desc": "每瓶装入的经验点数（不足时按实际数量）。"
+  "instantxp.config.bottleXp.desc": "每瓶装入的经验点数（不足时按实际数量）。",
+  "instantxp.counter": "+%s 经验",
+  "instantxp.config.xpCounter": "经验计数",
+  "instantxp.config.xpCounter.desc": "在快捷栏上方显示刚拾取的经验(+37 经验)。",
+  "instantxp.config.deathBottle": "死亡经验瓶",
+  "instantxp.config.deathBottle.desc": "死亡时,部分经验会留在附魔之瓶里,而不是几个经验球。",
+  "instantxp.config.deathBottlePercent": "死亡经验瓶比例",
+  "instantxp.config.deathBottlePercent.desc": "进入死亡经验瓶的经验比例(百分比)。"
 }

@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "Botellas de PX",
   "instantxp.config.xpBottles.desc": "Agáchate y usa una botella de cristal vacía para embotellar tu PX; al lanzarla recuperas exactamente esa PX.",
   "instantxp.config.bottleXp": "PX por botella",
-  "instantxp.config.bottleXp.desc": "Puntos de PX que caben en una botella (o menos, si tienes menos)."
+  "instantxp.config.bottleXp.desc": "Puntos de PX que caben en una botella (o menos, si tienes menos).",
+  "instantxp.counter": "+%s PX",
+  "instantxp.config.xpCounter": "Contador de PX",
+  "instantxp.config.xpCounter.desc": "Muestra los PX que acabas de recoger sobre la barra rápida (+37 PX).",
+  "instantxp.config.deathBottle": "Frasco al morir",
+  "instantxp.config.deathBottle.desc": "Al morir, parte de tu experiencia queda en un frasco de experiencia en lugar de unos pocos orbes.",
+  "instantxp.config.deathBottlePercent": "Parte del frasco al morir",
+  "instantxp.config.deathBottlePercent.desc": "Cuánta de tu experiencia va al frasco al morir, en porcentaje."
 }

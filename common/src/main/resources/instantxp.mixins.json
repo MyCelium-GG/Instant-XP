@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BottleItemMixin",
+    "LivingEntityMixin",
     "ThrownExperienceBottleMixin"
   ],
   "injectors": {

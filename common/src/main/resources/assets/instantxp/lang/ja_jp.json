@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "経験値ボトル",
   "instantxp.config.xpBottles.desc": "スニークしながら空のガラス瓶を使うと経験値を瓶詰めでき、投げるとその分だけ戻ります。",
   "instantxp.config.bottleXp": "1 本あたりの経験値",
-  "instantxp.config.bottleXp.desc": "1 本に入れる経験値ポイント（足りなければその分だけ）。"
+  "instantxp.config.bottleXp.desc": "1 本に入れる経験値ポイント（足りなければその分だけ）。",
+  "instantxp.counter": "+%s 経験値",
+  "instantxp.config.xpCounter": "経験値カウンター",
+  "instantxp.config.xpCounter.desc": "拾った経験値をホットバーの上に表示します(+37 経験値)。",
+  "instantxp.config.deathBottle": "死亡時のボトル",
+  "instantxp.config.deathBottle.desc": "死んだとき、経験値の一部が数個のオーブではなくエンチャントの瓶に残ります。",
+  "instantxp.config.deathBottlePercent": "死亡時ボトルの割合",
+  "instantxp.config.deathBottlePercent.desc": "死亡時のボトルに入る経験値の割合(%)。"
 }

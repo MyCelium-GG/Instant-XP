@@ -4,6 +4,7 @@ import my.celium.org.Mycel;
 import my.celium.org.config.ConfigBuilder;
 import my.celium.org.config.ConfigValue;
 import my.celium.org.config.MycelConfig;
+import my.celium.org.event.MycelEvents;
 import my.celium.org.metadata.ModMetadata;
 import my.celium.org.translation.ModLang;
 import net.minecraft.server.MinecraftServer;
@@ -27,7 +28,7 @@ public final class InstantXpMod {
     /** Messages in each player's language (assets/instantxp/lang). */
     public static final ModLang LANG = ModLang.of("instantxp", InstantXpMod.class);
 
-    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.3.0")
+    public static final ModMetadata META = ModMetadata.builder(ID, "InstantXP", "1.4.0")
             .author("MyCelium")
             .website("https://www.curseforge.com/minecraft/mc-mods/instant-xp-pickup")
             .updateUrl("https://wiki.mycelium-gg.org/updates/instantxp.json")
@@ -37,6 +38,9 @@ public final class InstantXpMod {
     public static ConfigValue<Integer> radius;
     public static ConfigValue<Boolean> xpBottles;
     public static ConfigValue<Integer> bottleXp;
+    public static ConfigValue<Boolean> xpCounter;
+    public static ConfigValue<Boolean> deathBottle;
+    public static ConfigValue<Integer> deathBottlePercent;
     public static MycelConfig config;
 
     private InstantXpMod() {
@@ -56,13 +60,30 @@ public final class InstantXpMod {
                 "Sneak and use an empty glass bottle to bottle your XP; throwing it gives exactly that XP back.");
         bottleXp = builder.intValue("bottleXp", 50, 1, 1000,
                 "XP points put into one bottle (or less, if you have less).");
+        xpCounter = builder.booleanValue("xpCounter", true,
+                "Show the XP you just picked up above the hotbar (+37 XP).");
+        deathBottle = builder.booleanValue("deathBottle", true,
+                "When you die, part of your XP is left in a Bottle o' Enchanting instead of a few orbs.");
+        deathBottlePercent = builder.intValue("deathBottlePercent", 50, 1, 100,
+                "How much of your XP goes into the death bottle, in percent.");
         config = builder.build();
         XpStats.start();
+        MycelEvents.onPlayerLeave(event -> XpCounter.forget(event.player().getUUID()));
     }
 
     /** Whether bottling XP is on (separate from instant pickup). */
     public static boolean bottlesEnabled() {
         return xpBottles != null && Mycel.isEnabled(ID) && xpBottles.get();
+    }
+
+    /** Whether the +XP counter is on (separate from instant pickup). */
+    public static boolean counterEnabled() {
+        return xpCounter != null && Mycel.isEnabled(ID) && xpCounter.get();
+    }
+
+    /** Whether dying leaves a bottle of XP. */
+    public static boolean deathBottleEnabled() {
+        return deathBottle != null && Mycel.isEnabled(ID) && deathBottle.get();
     }
 
     public static boolean isModEnabled() {

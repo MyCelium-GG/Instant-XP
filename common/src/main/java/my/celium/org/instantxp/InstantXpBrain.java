@@ -63,6 +63,10 @@ public final class InstantXpBrain {
         AABB box = player.getBoundingBox().inflate(radius);
         List<ExperienceOrb> orbs =
                 player.level().getEntitiesOfClass(ExperienceOrb.class, box, orb -> !orb.isRemoved());
+        if (orbs.isEmpty()) {
+            return 0;
+        }
+        int before = XpBottles.totalXp(player);
         int touched = 0;
         for (ExperienceOrb orb : orbs) {
             if (orb.isRemoved()) {
@@ -75,6 +79,7 @@ public final class InstantXpBrain {
             touched++;
         }
         if (touched > 0) {
+            XpCounter.gained(player, XpBottles.totalXp(player) - before, player.level().getServer().getTickCount());
             for (int i = 0; i < Math.min(touched, 1000); i++) {
                 XpStats.count("orb");
             }

@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "Бутылки опыта",
   "instantxp.config.xpBottles.desc": "Присядьте и используйте пустую бутылку, чтобы разлить опыт; брошенная бутылка вернёт ровно столько опыта.",
   "instantxp.config.bottleXp": "Опыта в бутылке",
-  "instantxp.config.bottleXp.desc": "Очки опыта в одной бутылке (или меньше, если у вас меньше)."
+  "instantxp.config.bottleXp.desc": "Очки опыта в одной бутылке (или меньше, если у вас меньше).",
+  "instantxp.counter": "+%s опыта",
+  "instantxp.config.xpCounter": "Счётчик опыта",
+  "instantxp.config.xpCounter.desc": "Показывает только что собранный опыт над панелью быстрого доступа (+37 опыта).",
+  "instantxp.config.deathBottle": "Пузырёк при смерти",
+  "instantxp.config.deathBottle.desc": "При смерти часть вашего опыта остаётся в пузырьке опыта вместо нескольких сфер.",
+  "instantxp.config.deathBottlePercent": "Доля пузырька при смерти",
+  "instantxp.config.deathBottlePercent.desc": "Какая доля вашего опыта попадает в пузырёк при смерти, в процентах."
 }

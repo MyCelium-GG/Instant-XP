@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "XP bottles",
   "instantxp.config.xpBottles.desc": "Sneak and use an empty glass bottle to bottle your XP; throwing it gives exactly that XP back.",
   "instantxp.config.bottleXp": "XP per bottle",
-  "instantxp.config.bottleXp.desc": "XP points put into one bottle (or less, if you have less)."
+  "instantxp.config.bottleXp.desc": "XP points put into one bottle (or less, if you have less).",
+  "instantxp.counter": "+%s XP",
+  "instantxp.config.xpCounter": "XP counter",
+  "instantxp.config.xpCounter.desc": "Show the XP you just picked up above the hotbar (+37 XP).",
+  "instantxp.config.deathBottle": "Death bottle",
+  "instantxp.config.deathBottle.desc": "When you die, part of your XP is left in a Bottle o' Enchanting instead of a few orbs.",
+  "instantxp.config.deathBottlePercent": "Death bottle share",
+  "instantxp.config.deathBottlePercent.desc": "How much of your XP goes into the death bottle, in percent."
 }

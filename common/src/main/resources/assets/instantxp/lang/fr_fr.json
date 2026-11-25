@@ -10,5 +10,12 @@
   "instantxp.config.xpBottles": "Fioles d'XP",
   "instantxp.config.xpBottles.desc": "Accroupissez-vous et utilisez une fiole vide pour mettre votre XP en bouteille ; la lancer rend exactement cette XP.",
   "instantxp.config.bottleXp": "XP par fiole",
-  "instantxp.config.bottleXp.desc": "Points d'XP mis dans une fiole (ou moins, si vous en avez moins)."
+  "instantxp.config.bottleXp.desc": "Points d'XP mis dans une fiole (ou moins, si vous en avez moins).",
+  "instantxp.counter": "+%s XP",
+  "instantxp.config.xpCounter": "Compteur d'XP",
+  "instantxp.config.xpCounter.desc": "Affiche l'XP que vous venez de ramasser au-dessus de la barre d'action (+37 XP).",
+  "instantxp.config.deathBottle": "Fiole de mort",
+  "instantxp.config.deathBottle.desc": "À votre mort, une partie de votre XP reste dans une fiole d'expérience au lieu de quelques orbes.",
+  "instantxp.config.deathBottlePercent": "Part de la fiole de mort",
+  "instantxp.config.deathBottlePercent.desc": "Quelle part de votre XP va dans la fiole de mort, en pourcentage."
 }
